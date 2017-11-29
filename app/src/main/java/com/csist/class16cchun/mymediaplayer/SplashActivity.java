@@ -53,4 +53,9 @@ public class SplashActivity extends AppCompatActivity {
 
         mRlRoot.startAnimation(set);
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }
